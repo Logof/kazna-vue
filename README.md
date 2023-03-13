@@ -1,4 +1,9 @@
 # kazna-manage-system
 
-``npm install
-npm run dev``
+Для запуска фронта следует выполнить команды
+
+``npm install``
+
+``npm run dev``
+
+и перейти по ссылке http://localhost:5173
