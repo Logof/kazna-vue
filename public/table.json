@@ -1,0 +1,185 @@
+{
+    "status": true,
+    "BRS": [
+        {
+            "debit_account": "01",
+            "credit_account": "03",
+            "_identity": "8597d3fc-ea62-527c-340c-2d6f2b92b912",
+            "ba": [
+                {
+                    "subCode": "-",
+                    "amount": 100,
+                    "code": "10000000000000000000"
+                }
+            ],
+            "lbo": [],
+            "entry_date": "2023-03-09",
+            "pofr": []
+        }
+    ],
+    "ZKR": [
+        {
+            "receiver_account": "40817810",
+            "budget_obligation": "",
+            "debit_account": "01",
+            "_identity": "04c27032-8c32-6255-46b7-55d850316924",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 100,
+                    "is_prepaid": false,
+                    "code": "10000000000000000211"
+                }
+            ],
+            "monetary_obligation": ""
+        },
+        {
+            "receiver_account": "408178101",
+            "budget_obligation": "1",
+            "debit_account": "031",
+            "_identity": "5baa5a70-26c6-e92d-e9c5-f0c5cc887dfd",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 100,
+                    "is_prepaid": false,
+                    "code": "10000000000000000211"
+                }
+            ],
+            "monetary_obligation": "1"
+        },
+        {
+            "receiver_account": "40817",
+            "budget_obligation": "1",
+            "debit_account": "03",
+            "_identity": "942b980b-1c2c-bd0e-3a31-eccc11c6922d",
+            "decoding": [
+                {
+                    "subCode": "-",
+                    "amount": 100,
+                    "is_prepaid": false,
+                    "code": "10000000000000000000"
+                }
+            ],
+            "monetary_obligation": "1"
+        },
+        {
+            "receiver_account": "40817",
+            "budget_obligation": "",
+            "debit_account": "01",
+            "_identity": "ab8a918c-e88b-c2a9-369e-c848c6c9a666",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 1000,
+                    "is_prepaid": false,
+                    "code": "10000000000000000000"
+                }
+            ],
+            "monetary_obligation": ""
+        },
+        {
+            "receiver_account": "40817",
+            "budget_obligation": "111",
+            "debit_account": "03",
+            "_identity": "ad825898-a727-19d7-02d4-a4080e7a27f1",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 100,
+                    "is_prepaid": false,
+                    "code": "10000000000000000222"
+                }
+            ],
+            "monetary_obligation": "111"
+        },
+        {
+            "receiver_account": "40817810",
+            "budget_obligation": "1",
+            "debit_account": "03",
+            "_identity": "c19936ac-0482-631f-3adc-bb134b545579",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 1000,
+                    "is_prepaid": false,
+                    "code": "10000000000000000222"
+                }
+            ],
+            "monetary_obligation": "1"
+        },
+        {
+            "receiver_account": "40817810",
+            "budget_obligation": "1",
+            "debit_account": "03",
+            "_identity": "d413f58d-aadb-8637-bad5-1fd9f870d909",
+            "decoding": [
+                {
+                    "subCode": "",
+                    "amount": 100,
+                    "is_prepaid": false,
+                    "code": "10000000000000000211"
+                }
+            ],
+            "monetary_obligation": "1"
+        }
+    ],
+    "BO": [
+        {
+            "receiver_account": "40817810",
+            "personal_account": "03",
+            "reason_documents": [
+                {
+                    "uri": "http://s3.local/00000/1234567890",
+                    "number": "1111111111",
+                    "caption": "Документ"
+                }
+            ],
+            "_identity": "1e816f48-d795-6f79-e295-0be010d4f452",
+            "decoding": [
+                {
+                    "prepaidAmount": 10,
+                    "subCode": "",
+                    "amount": 100,
+                    "code": "00000000000000000000"
+                }
+            ]
+        },
+        {
+            "receiver_account": "40817",
+            "personal_account": "03",
+            "reason_documents": [
+                {
+                    "uri": "http://s3.local/00000/1234567890",
+                    "number": "111",
+                    "caption": "Документ"
+                }
+            ],
+            "_identity": "7ca1e100-57c0-0c73-1540-6127a8da8fda",
+            "decoding": [
+                {
+                    "prepaidAmount": 10,
+                    "subCode": "-",
+                    "amount": 1000,
+                    "code": "10000000000000000000"
+                }
+            ]
+        }
+    ],
+    "DO": [
+        {
+            "receiver_account": "03",
+            "personal_account": "01",
+            "reason_documents": [],
+            "_identity": "3fe98ba3-d579-bc4d-aefe-28ebe165f432",
+            "decoding": [
+                {
+                    "prepaidAmount": 100,
+                    "subCode": "-",
+                    "amount": 1000,
+                    "code": "10000000000000000000"
+                }
+            ]
+        }
+    ]
+}
